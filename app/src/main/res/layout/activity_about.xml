@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranav.picturesque.AboutActivity">
+
+    <TextView
+        android:id="@+id/lblAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picturesque is an app to showcase your photos on the map. It does this by placing your geo-tagged photos from the phone on the map.\n\nIt takes you on a 'picturesque' journey."
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:id="@+id/lblVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 0.2"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
